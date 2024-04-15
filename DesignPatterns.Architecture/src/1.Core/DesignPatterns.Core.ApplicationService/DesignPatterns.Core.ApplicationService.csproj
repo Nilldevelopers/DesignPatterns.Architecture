@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+		<PropertyGroup>
+				<TargetFramework>net8.0</TargetFramework>
+				<ImplicitUsings>enable</ImplicitUsings>
+				<Nullable>enable</Nullable>
+		</PropertyGroup>
+
+		<ItemGroup>
+				<PackageReference Include="Zamin.Core.ApplicationServices" Version="8.0.0" />
+		</ItemGroup>
+
+		<ItemGroup>
+				<ProjectReference Include="..\DesignPatterns.Core.Contracts\DesignPatterns.Core.Contracts.csproj" />
+				<ProjectReference Include="..\DesignPatterns.Core.Domain\DesignPatterns.Core.Domain.csproj" />
+				<ProjectReference Include="..\DesignPatterns.Core.RequestResponse\DesignPatterns.Core.RequestResponse.csproj" />
+		</ItemGroup>
+
+</Project>
